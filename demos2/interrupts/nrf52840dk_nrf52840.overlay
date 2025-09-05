@@ -1,0 +1,18 @@
+/*
+ * Device tree overlay for nRF52840-DK interrupt demo
+ * This overlay defines the button and LED aliases needed for the demo
+ */
+
+/ {
+	aliases {
+		sw0 = &button0;
+	};
+
+	buttons {
+		compatible = "gpio-keys";
+		button0: button_0 {
+			gpios = <&gpio0 11 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+			label = "Push button switch 0";
+		};
+	};
+};

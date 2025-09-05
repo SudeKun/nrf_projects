@@ -1,0 +1,12 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "nrf-connect",
+			"request": "launch",
+			"name": "Launch smp_server_demo",
+			"config": "${workspaceFolder}/build/smp_server_demo",
+			"runToEntryPoint": "main"
+		}
+	]
+}

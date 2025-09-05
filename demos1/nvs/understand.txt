@@ -1,0 +1,2 @@
+In this project I used NVS (Non-Volatile Storage). It is lightweight key-value storage system that allows you to store data in internal flash memory persistently across device reboots or power loss.
+Config or settings are stored with using NVS. There are no file operations just basic key-value storage.

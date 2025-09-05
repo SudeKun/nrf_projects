@@ -1,0 +1,10 @@
+/{
+  aliases {
+    watchdog0 = &watchdog0;
+  };
+};
+
+watchdog0: watchdog@40010000 {
+  compatible = "nordic,nrf-watchdog";
+  status = "okay";
+};

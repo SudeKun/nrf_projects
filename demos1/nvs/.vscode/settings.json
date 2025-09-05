@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.dbclient-js": "javascript",
+    ".fantomasignore": "ignore",
+    "device.h": "c",
+    "flash.h": "c"
+  }
+}

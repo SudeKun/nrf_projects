@@ -1,0 +1,2 @@
+So if you want to use MCUboot first make a mcuboot prj.conf file and add mcuboot configs into this file.
+Then add main config file CONFIG_BOOTLOADER_MCUBOOT=y to read this file but it may cannot find mcuboot conf file so you need to add it into system.conf file and run it like that. You can find it in screenshot.
